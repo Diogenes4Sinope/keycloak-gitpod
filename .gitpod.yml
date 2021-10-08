@@ -5,7 +5,7 @@ ports:
 tasks:
   - name: docker-daemon
     before: sudo docker-up
-    
+    #
   - name: keycloak
     before:
       echo 'Waiting for docker daemon to start' &&
